@@ -1,4 +1,4 @@
-#incluide <stdio.h>
+#include <stdio.h>
 #include <math.h>
 
 
@@ -18,8 +18,11 @@ int main()
 	
 	printf("Informe as coordenadas para o segundo ponto:");
 	scanf("%i %i",&x2,y2);
+	
+	distancia =  calcularDistancia(x1,y1,x2,y2);
+	
+	printf("Distancia: %f",distancia);
 }
-
 #incluide <stdio.h>
 #include <math.h>
 
